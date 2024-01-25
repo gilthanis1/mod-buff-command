@@ -18,7 +18,7 @@ BuffCommand.Enable = 1
 #        Default:     120 - (Enabled)
 #                     0 - (Disabled)
 
-BuffCommand.Cooldown = 120
+BuffCommand.Cooldown = 15
 
 #
 #    BuffCommand.MinLevel
