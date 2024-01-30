@@ -7,11 +7,16 @@ CREATE TABLE `player_buff`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Compact;
 
 -- DATA
-INSERT INTO `player_buff` VALUES (25898, 'Greater Kings - R3'); -- Greater Blessing of Kings (R3)
-INSERT INTO `player_buff` VALUES (32999, 'Spirit - R2'); -- Prayer of Spirit - R2 
-INSERT INTO `player_buff` VALUES (25392, 'Fortitude - R3'); -- Prayer of Fortitude (R3)
-INSERT INTO `player_buff` VALUES (26991, 'GoTWild - R3'); -- Gift of the Wild - R3
-INSERT INTO `player_buff` VALUES (27127, 'Arcane Brilliance - R2'); -- Arcane Brilliance - R2
+INSERT INTO `player_buff` VALUES (25898, 'Kings'); -- Greater Blessing of Kings
+INSERT INTO `player_buff` VALUES (27681, 'Spirit'); -- Prayer of Spirit - 60 
+INSERT INTO `player_buff` VALUES (21564, 'Fortitude'); -- Prayer of Fortitude 60
+INSERT INTO `player_buff` VALUES (21850, 'GoTW'); -- Gift of the Wild 60
+INSERT INTO `player_buff` VALUES (23028, 'Arcane Brilliance'); -- Arcane Brilliance 60
 
 -- COMMAND
 INSERT INTO `command`(`name`, `security`, `help`) VALUES ('buff', 0, 'Syntax: .buff. Buff player.\r\n.buff reload - reload player_buff table.');
+
+
+-- Kings 25898 (All) - Spirit 27681 (60) - Fort 21564 (60) - GoTW 21850 (60) - Arcane Brilliance 23028 (60)
+-- Kings 25898 (All) - Spirit 32999 (70) - Fort 25392 (70) - GoTW 26991 (70) - Arcane Brilliance 27127 (70)
+-- Kings 25898 (All) - Spirit 48074 (80) - Fort 48162 (80) - GoTW 48470 (80) - Dalaran Brilliance 61316 (80)
